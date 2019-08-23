@@ -13,8 +13,8 @@ export default function CharacterCard({ char }) {
 	      </Card.Content>
 	      <Card.Content extra>
 	        <a>
-          <Icon name="user" />
-          episodes
+          <Icon name="play" />
+          {char.episode.length} Episodes
         </a>
       </Card.Content>
     </Card>

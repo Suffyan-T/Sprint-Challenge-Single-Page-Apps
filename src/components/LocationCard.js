@@ -7,7 +7,12 @@ export default function LocationCard({ loc }) {
       <Card.Content>
         <Card.Header>{loc.name}</Card.Header>
         <Card.Meta>{loc.type}</Card.Meta>
-        <Card.Description> {loc.residents.length} Residents</Card.Description>
+      </Card.Content>
+      <Card.Content extra>
+	        <a>
+          <Icon name="user" />
+          {loc.residents.length} Residents
+        </a>
       </Card.Content>
     </Card>
   );

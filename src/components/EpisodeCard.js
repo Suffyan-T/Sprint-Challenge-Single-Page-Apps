@@ -9,6 +9,13 @@ import { Card, Icon, Image } from "semantic-ui-react";
 	        <Card.Meta>{epi.air_date}</Card.Meta>
 	        <Card.Description> {epi.id}</Card.Description>
 	      </Card.Content>
+		  <Card.Content extra>
+	        <a>
+          	<Icon name="tv" />
+          	Episode {epi.id} 
+        	</a>
+			</Card.Content>
+		  
 	    </Card>
 	  );
 }
