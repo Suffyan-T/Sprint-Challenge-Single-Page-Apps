@@ -1,4 +1,4 @@
-# Sprint Challenge: Single Page Applications
+﻿# Sprint Challenge: Single Page Applications
 ## Rick & Morty Edition
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Single Page Applications, React Router I - II, and React Forms.
@@ -25,11 +25,13 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer: Incremental changes are faster becasue less data is processed. Only parts of the page that change are re rendered reducing time. Can save allot on costs if you have to pay for each data request to server. 
+
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer:Asynchronous JavaScript and XML
+
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer:A Controlled Component is one that takes its current value through props and notifies changes through callbacks like onChange.
 
 
 ## Project Set Up
